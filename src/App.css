@@ -1,0 +1,229 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.app-container {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #007bff;
+  padding: 12px 0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #d4eaff;
+}
+
+.page-container {
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #333;
+  --nav-bg: #007bff;
+  --nav-text: white;
+  --button-bg: #007bff;
+  --button-text: white;
+}
+
+.dark-theme {
+  --background-color: #1a1a1a;
+  --text-color: #f0f0f0;
+  --nav-bg: #333;
+  --nav-text: #f0f0f0;
+  --button-bg: #555;
+  --button-text: #f0f0f0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-container {
+  text-align: center;
+}
+
+nav {
+  background: var(--nav-bg);
+  color: var(--nav-text);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: var(--nav-text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  background: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #333;
+  --nav-bg: #007bff;
+  --nav-text: white;
+  --button-bg: #007bff;
+  --button-text: white;
+}
+
+.dark-theme {
+  --background-color: #1a1a1a !important;
+  --text-color: #f0f0f0 !important;
+  --nav-bg: #333 !important;
+  --nav-text: #f0f0f0 !important;
+  --button-bg: #555 !important;
+  --button-text: #f0f0f0 !important;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.app-container,
+.page-container {
+  background: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+nav {
+  background: var(--nav-bg) !important;
+  color: var(--nav-text) !important;
+}
+
+nav a {
+  color: var(--nav-text) !important;
+}
+
+button {
+  background: var(--button-bg) !important;
+  color: var(--button-text) !important;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+nav button {
+  background: var(--button-bg);
+  color: var(--button-text);
+  padding: 8px 16px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto; 
+  min-width: 140px; 
+  text-align: center;
+}
+
+nav button:hover {
+  opacity: 0.8;
+}

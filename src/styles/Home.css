@@ -1,0 +1,28 @@
+/* Light Mode Styles */
+.page-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .page-container h1 {
+    font-size: 24px;
+    color: var(--text-color,#333);
+  }
+  
+  /* 🌙 Dark Mode */
+  .dark .page-container {
+    background: #222;
+    color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark .page-container h1 {
+    color: #000000;
+  }
+  
