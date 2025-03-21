@@ -32,12 +32,12 @@ http://localhost:5173
 
 
 Assumptions made during the developing the project
-Timers are stored in localStorage, so they won’t disappear when you refresh the page.
-Once a timer is marked Completed, it stays that way even if you leave and come back.
-To keep the timers ogranized i added expandable and collapsing feature
-alert will be there when the timer reaches 50%
-Took care of the responsivess so that mobile users can access the web app too
-applied dark mode even the user reloads the page
-added modal when the timer ends I found difficulty here but eventually achieved it 
-user can download json file 
+1 Timers are stored in localStorage, so they won’t disappear when you refresh the page.
+2 Once a timer is marked Completed, it stays that way even if you leave and come back.
+3 To keep the timers ogranized i added expandable and collapsing feature
+4 alert will be there when the timer reaches 50%
+5 Took care of the responsivess so that mobile users can access the web app too
+6 applied dark mode even the user reloads the page
+7 added modal when the timer ends I found difficulty here but eventually achieved it 
+8 user can download json file 
 
